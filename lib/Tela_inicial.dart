@@ -4,9 +4,13 @@ import 'Quiz.dart';
 class TelaInicial extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-
     return Scaffold(
-
+       appBar: AppBar(
+      title: Text('BLOODBORNE QUIZ'),
+      centerTitle: true,
+      backgroundColor: Colors.grey[400],
+      automaticallyImplyLeading: false,
+    ),
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(

@@ -84,6 +84,18 @@ class _TelaQuizState extends State<TelaQuiz> {
       respostaCorreta: 'Gaping Dragon',
        imagePath: 'assets/images/p10.jpg'
     ),
+    Pergunta(
+      pergunta: 'Qual eh o nome desse boss?',
+      respostas: ['Fera Sedenta de sangue', 'Padre Gascoigne', 'Martyr Logarius', 'Eileen, o Corvo'],
+      respostaCorreta: 'Padre Gascoigne',
+       imagePath: 'assets/images/pg.png'
+    ),
+    Pergunta(
+      pergunta: 'Qual eh o nome desse boss?',
+      respostas: ['Fera Sedenta de sangue', 'Padre Gascoigne', 'orfao de kos', 'Eileen, o Corvo'],
+      respostaCorreta: 'orfao de kos',
+       imagePath: 'assets/images/kos.jpg'
+    ),
   ];
 
 
@@ -126,7 +138,7 @@ Widget build(BuildContext context) {
         gradient: LinearGradient(
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
-          colors: [Color(0xFF1A1A1A), Color(0xFF262626)],
+          colors: [Color(0xFF1A1A1A), Color(0xFF262626), Color(0xEA1A1A1A)],
         ),
       ),
       child: Center(

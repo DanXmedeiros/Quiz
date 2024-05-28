@@ -14,7 +14,7 @@ class Telaresultado extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Voce chegou ao final, caçador !"),
-        backgroundColor: Colors.orange[300],
+        backgroundColor: Colors.orange[100],
         automaticallyImplyLeading: false,
       ),
       body: Container(
